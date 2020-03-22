@@ -1,0 +1,13 @@
+.partners__row {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    @media(max-width:375px) {
+        margin-bottom: 0;
+    }
+  }
+  
+  .partner__wrapper {
+    margin: 0 25px;
+  }

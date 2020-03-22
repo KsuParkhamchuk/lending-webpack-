@@ -1,0 +1,44 @@
+footer {
+    background-color: #262b2e;
+  }
+  
+  .footer__content {
+    text-align: center;
+    color:#fff;
+  }
+
+  
+  
+  .footer__social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+
+      
+        &--wrapper{
+            width: 45px;
+            height: 45px;
+            background-color: #424648;
+            margin: 5px;
+            line-height: 45px;
+
+            &:hover {
+                    background-color: #56ccc3;
+                }
+
+            & img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+  
+  }
+  
+  .followUs {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .copyright {
+    color: #aaaaaa;
+  }

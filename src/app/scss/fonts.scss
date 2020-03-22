@@ -1,77 +1,83 @@
-/* vibur-regular - latin */
 @font-face {
-    font-family: 'Vibur';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Vibur'),
-         url('../fonts/vibur-v9-latin-regular.woff2') format('woff2'), 
-         url('../pages/fonts/vibur-v9-latin-regular.woff') format('woff');
-  }
-
- 
-/* arsenal-700italic - cyrillic */
-@font-face {
-    font-family: 'Arsenal';
-    font-style: italic;
-    font-weight: 700;
-    src: local('Arsenal Bold Italic'), local('Arsenal-BoldItalic'),
-         url('/src/pages/fonts/arsenal-v3-cyrillic-700italic.woff2') format('woff2'), 
-         url('/src/pages/fonts/arsenal-v3-cyrillic-700italic.woff') format('woff'); 
-  }
-
-  /* bad-script-regular - cyrillic_latin */
-@font-face {
-    font-family: 'Bad Script';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Bad Script Regular'), local('BadScript-Regular'),
-         url('/src/pages/fonts/bad-script-v7-cyrillic_latin-regular.woff2') format('woff2'), 
-         url('/src/pages/fonts/bad-script-v7-cyrillic_latin-regular.woff') format('woff');
-  }
-  /* caveat-700 - latin */
-@font-face {
-    font-family: 'Caveat';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Caveat Bold'), local('Caveat-Bold'),
-         url('/src/pages/fonts/caveat-v5-latin-700.woff2') format('woff2'), 
-         url('/src/pages/fonts/caveat-v5-latin-700.woff') format('woff'); 
-  }
-
-  /* cormorant-700 - cyrillic_latin */
-@font-face {
-    font-family: 'Cormorant';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Cormorant Bold'), local('Cormorant-Bold'),
-         url('/src/pages/fonts/cormorant-v7-cyrillic_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/src/pages/fonts/cormorant-v7-cyrillic_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* cormorant-700italic - cyrillic_latin */
-  @font-face {
-    font-family: 'Cormorant';
-    font-style: italic;
-    font-weight: 700;
-    src: local('Cormorant Bold Italic'), local('Cormorant-BoldItalic'),
-         url('/src/pages/fonts/cormorant-v7-cyrillic_latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/src/pages/fonts/cormorant-v7-cyrillic_latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-
-  /* gabriela-regular - cyrillic_latin */
-@font-face {
-    font-family: 'Gabriela';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Gabriela Regular'), local('Gabriela-Regular'),
-         url('/src/pages/fonts/gabriela-v7-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/src/pages/fonts/gabriela-v7-cyrillic_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* lobster-regular - cyrillic_latin */
-@font-face {
-     font-family: 'Lobster';
+     font-family: 'montserrat';
+     src: url('/fonts/montserrat-regular-webfont.woff2') format('woff2'),
+          url('/fonts/montserrat-regular-webfont.woff') format('woff');
+     font-weight: normal;
      font-style: normal;
-     font-weight: 400;
-     src: local('Lobster Regular'), local('Lobster-Regular'),
-          url('/src/pages/fonts/lobster-v21-cyrillic_latin-regular.woff2') format('woff2'), 
-          url('/src/pages/fonts/lobster-v21-cyrillic_latin-regular.woff') format('woff');
+   
+   }
+   
+   
+   @font-face {
+     font-family: 'montserrat';
+     src: url('/fonts/montserrat-thin-webfont.woff2') format('woff2'),
+          url('/fonts/montserrat-thin-webfont.woff') format('woff');
+     font-weight: 100;
+     font-style: normal;
+   
+   }
+   
+   
+   @font-face {
+     font-family: 'montserrat';
+     src: url('/fonts/montserrat-bold-webfont.woff2') format('woff2'),
+          url('/fonts/montserrat-bold-webfont.woff') format('woff');
+     font-weight: 700;
+     font-style: normal;
+   
+   }
+   
+   @font-face {
+     font-family: 'Merriweather';
+     src: url('/fonts/Merriweather-Regular.woff2') format('woff2'),
+          url('/fonts/Merriweather-Regular.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+   
+   }
+   
+   
+   @font-face {
+     font-family: 'Merriweather';
+     src: url('/fonts/Merriweather-Bold.woff2') format('woff2'),
+          url('/fonts/Merriweather-Bold.woff') format('woff');
+     font-weight: 700;
+     font-style: normal;
+   
+   }
+   
+   
+   @font-face {
+     font-family: 'Merriweather';
+     src: url('/fonts/Merriweather-Light.woff2') format('woff2'),
+          url('/fonts/Merriweather-Light.woff') format('woff');
+     font-weight: 300;
+     font-style: normal;
+   
+   }
+   
+   @font-face {
+     font-family: 'Raleway';
+     src: url('/fonts/Raleway-Bold.ttf') format('ttf');
+     font-weight: bold;
+     font-style: normal;
+   
+   }
+   
+   
+   @font-face {
+     font-family: 'Raleway';
+     src: url('/fonts/Raleway-Light.ttf') format('ttf');
+     font-weight: 300;
+     font-style: normal;
+   
+   }
+   
+   
+   @font-face {
+     font-family: 'Raleway';
+     src: url('/fonts/Raleway-Regular.ttf') format('ttf');        
+     font-weight: normal;
+     font-style: normal;
+   
    }

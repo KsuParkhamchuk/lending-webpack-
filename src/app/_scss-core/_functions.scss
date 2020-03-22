@@ -1,4 +1,8 @@
 @function typo($s, $lh: 1.4em, $w: normal, $f: $font-base) {
     @return unquote($w + ' ' + $s + '/' + $lh + ' ' + $f);
   }
+
+@function containerWidth($contentWidth,$pad){
+  @return $contentWidth + $pad + 20px;
+}
   
