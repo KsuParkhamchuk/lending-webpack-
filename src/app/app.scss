@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "montserrat";
+  color:#646565!important;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+   width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  height: 100%;
+}
+
+.raleway {
+  font-family: "Raleway";
+}
+
+.merriweather {
+  font-family: "Merriweather";
+}
+
+section.grey {
+  background-color: #f8fafa;;
+}
+
+.section__content {
+  padding: 125px 0;
+}
+
+
+.section__header {
+text-align: center;
+margin-bottom: 130px;
+}
+
+.section__header--title {
+  font-size: 38px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3e3f3f;
+}
+
+.section__header--description {
+  font-family: "Merriweather";
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+
+@import "scss/header";
+@import "scss/banner";
+@import "scss/about";
+@import "scss/services";
+@import "scss/team";
+@import "scss/review";
+@import "scss/partners";
+@import "scss/contact";
+@import "scss/footer";
+
+@import "app/_scss-core/_core";
+
+@import "scss/helpers";
+@import "scss/typography";
+
+
+
+
+
+
+@media(max-width:768px){
+
+  
+  
+  .container {
+      max-width: containerWidth(520px,30px);
+  }
+
+  .section__header--title {
+      font-size: 32px;
+  }
+
+  .section__header--description {
+      font-size: 14px;
+  }
+
+  
+  .section__content {
+      padding: 70px 0;
+  }
+  .section__header {
+      margin-bottom: 60px;
+  }
+
+  
+}
+
+@media(max-width:576px){
+
+  .container {
+      max-width: 100%;
+  }
+
+  .work__img--wrapper,
+  .team__member,
+  .rewiever__photo {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .work__img--wrapper img,
+  .team__member img,
+  .rewiever__photo img {
+      width: 70%;
+  }
+
+}
+
+
+
+
+
+

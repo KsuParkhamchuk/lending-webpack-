@@ -1,0 +1,10 @@
+
+
+@mixin burgerLine{
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #606061;
+  border-radius: 6px;
+}

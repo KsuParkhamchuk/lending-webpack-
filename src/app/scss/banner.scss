@@ -1,0 +1,68 @@
+section.banner {
+    height: 100vh;
+    background: url(/img/images/bg-banner_01.png);
+  }
+  
+  
+  .blueBackground {
+    background-color: #b2f2ee;
+    padding: 10px;
+  }
+  
+  .banner__description {
+    display: flex;
+    justify-content: center;
+
+    &--text {
+        text-transform: uppercase;
+        font-size: 45px;
+        font-weight: bold;
+        color:#3e3f3f;
+        text-shadow: #dddddd 7px 7px 7px;
+
+        @media(max-width:1024px){
+            font-size: 40px;
+        }
+
+        @media(max-width:576px){
+          font-size: 30px;
+        }
+      }
+
+      &--content {
+        padding-top: 18%;
+        text-align: center;
+
+        @media(max-width:768px){
+          padding-top: 40%; 
+        }
+      }
+
+      &--btn {
+        margin-top:17%;
+      }
+  
+  }
+
+  
+  
+  
+  
+  .banner__link {
+    text-transform: uppercase;
+    color: #505050;
+    border: 2px solid #505050;
+    font-size: 18px;
+    padding: 15px 60px;
+
+    &:hover {
+        background-color: #b3f2ee;
+        color: #3e3f3f;
+        font-weight: bold;
+      }
+  }
+  
+ 
+  
+  
+  
